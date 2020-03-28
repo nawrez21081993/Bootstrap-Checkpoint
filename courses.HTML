@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+       <title> final checkpoint</title>
+       <meta charset="utf-8">
+       <link rel="stylesheet"  href="style\style.css">
+       
+       <link rel="icon"  href="res\logo.png">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<script src="jquery-3.4.1.min.js"></script>
+
+<!-- jQuery Modal 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+----------------> 
+
+<!---bootstrap-------->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-------------------->
+
+
+</head>
+
+<body>
+<!-------------navigation bar------------------>  
+<nav class="navbar navbar-expand-sm justify-content-center">
+  <ul class="navbar-nav" id="ulNav">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="courses.html">COURSES</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact.html">CONTACT</a>
+    </li>
+  </ul>
+</nav>
+<!--------------------------------------------------->
+
+<br><br>
+
+	<div class="titre"> 	</div>	
+	<h1 class="ombre"> COURSES </h1>	
+	
+<!-------------------------------------------------->
+
+<!-- jQuery Modal 
+<div id="ex1" class="modal">
+  <p style="color: black"> This is GoMyCode Track. </p>
+<p style="color: black"> Each track has its own goal. </p>
+<p style="color: black"> By adopting this track, you chose your own goal. </p>
+  <a href="#" rel="modal:close">Close</a>
+</div>
+---------------->
+
+<center>
+  <!-- Button to Open the Modal -->
+<div class="container">
+<div class="course1">
+    <button type="button" id="boutton1" class="btn btn-info" data-toggle="modal" data-target="#myModal">View more</button>
+</div>
+
+<div class="course2">
+    <button type="button" id="boutton2" class="btn btn-info" data-toggle="modal" data-target="#myModal">View more</a></button>
+</div>
+
+<div class="course3">
+    <button type="button" id="boutton3" class="btn btn-info" data-toggle="modal" data-target="#myModal">View more</a></button>
+</div>
+<br>
+<div class="course4">
+    <button type="button" id="boutton4" class="btn btn-info" data-toggle="modal" data-target="#myModal">View more</a></button>
+</div>
+<div class="course5">
+    <button type="button" id="boutton5" class="btn btn-info" data-toggle="modal" data-target="#myModal">View more</a></button>
+</div>
+<div class="course6">
+    <button type="button" id="boutton6" class="btn btn-info" data-toggle="modal" data-target="#myModal">View more</a></button>
+</div>
+<br>
+<div class="course7">
+    <button type="button" id="boutton7" class="btn btn-info" data-toggle="modal" data-target="#myModal">View more</a></button>
+</div>
+<div class="course8">
+    <button type="button" id="boutton8" class="btn btn-info" data-toggle="modal" data-target="#myModal">View more</a></button>
+</div>
+<div class="course9">
+    <button type="button" id="boutton9" class="btn btn-info" data-toggle="modal" data-target="#myModal">View more</a></button>
+</div>
+</div>
+</center>
+
+ <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <!--div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4--> <!--/div-->
+          
+        
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <br>
+        <p style="color: black"> This is GoMyCode Track. </p>
+        <p style="color: black"> Each track has its own goal. </p>
+        <p style="color: black"> By adopting this track, you chose your own goal. </p>
+
+        </div>
+        
+        <!-- Modal footer -->
+        <!--div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div-->
+        
+      </div>
+    </div>
+  </div>
+  
+
+
+<center>
+<h1> 
+Feedback
+</h1>
+</center>
+
+
+<br>
+
+<center>
+
+	<div class="container">
+	<button onclick="gras()" type="button" class="btn btn-default" style="width: 35px ; height: 35px;background-color: white"> B </button>
+	<button onclick="italique()" type="button" class="btn btn-default" style="width: 35px ;background-color: white"> I </button>
+	<button onclick="souligner()" type="button" class="btn btn-default" style="background-color: white"> Underline </button>
+<!--
+	<select id="myselect" onchange="fcttaille()">
+		<option value="20px">20px</option>
+		<option value="30px">30px</option>
+		<option value="40px">40px</option>
+	</select>
+-->
+	<select id="myselect" class="custom-select" onchange="fcttaille()" style="width: 90px ; height: 35px" >
+    	
+      <option value="20px">20px</option>
+      <option value="30px">30px</option>
+      <option value="40px">40px</option>
+    </select>
+
+
+	<select id="myselect2" class="custom-select" onchange="forme()" style="width: 100px ; height: 35px">
+		<option value="arial"> Arial </option>
+		<option value="verdana"> Verdana </option>
+		<option value="geneva"> Geneva </option>
+	</select>
+</div>
+</center>
+
+
+<br/>
+<center>
+	<textarea id="feedback" cols="80" row=" 1">   </textarea>
+</center>
+
+
+<br>
+
+</body>
+<script src="js\main.js"></script>
+</html>

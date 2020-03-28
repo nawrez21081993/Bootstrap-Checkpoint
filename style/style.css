@@ -1,0 +1,326 @@
+
+
+
+body{background-image: linear-gradient(to top right, black, hsl(0, 100%, 25%));
+ }
+
+/*faire rond les pointes*/
+select, button, textarea, input
+{
+    border-radius: 5px;
+}
+/*-----------------navigation bar----------------*/
+#ulNav>li{
+    margin-left:70px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+#ulNav>li>a{
+    color:white !important;
+    font-family: arial;
+    font-size: 40px;
+}
+#ulNav>li>a:hover {
+    color:yellow !important;
+}
+
+#ulNav>li>a:active{
+color:blue !important;
+}
+/*-----carousel--------------*/
+
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 10cm;
+  }
+
+/*---------------------------------------------------------------------------------*/
+.course1{
+	background-image:url(../res/cap1.png);
+	width: 5cm;
+	height: 5cm;
+	padding: 20px;
+	display:inline-block;
+    overflow:hidden;
+    margin-left:50px;
+    margin-bottom: 45px; 
+
+}
+
+.course1:hover{
+	background-color:black;
+    opacity: 0.5;
+}
+#boutton1{
+	
+  	margin-top: 55px;
+ 	display: none;	
+}
+
+.course2{
+	background-image:url(../res/cap2.png);
+	width: 5cm;
+	height: 5cm;
+	padding: 20px;
+	display:inline-block;
+	overflow:hidden;
+	margin-left:50px;
+	margin-bottom: 45px; 
+}
+
+.course2:hover{
+	background-color:black;
+    opacity: 0.5;
+    display:inline-block;
+}
+#boutton2{
+	
+  	margin-top: 55px;
+ 	display: none;
+	
+}
+.course3{
+	background-image:url(../res/cap3.png);
+	width: 5cm;
+	height: 5cm;
+	padding: 20px;
+	display:inline-block;
+	overflow:hidden;
+	margin-left:50px;
+	margin-bottom: 45px; 
+}
+
+.course3:hover{
+	background-color:black;
+    opacity: 0.5;
+    display:inline-block;
+}
+#boutton3{
+	
+  	margin-top: 55px;
+ 	display: none;
+	
+}
+.course4{
+	background-image:url(../res/cap4.png);
+	width: 5cm;
+	height: 5cm;
+	padding: 20px;
+	display:inline-block;
+	overflow:hidden;
+	margin-left:50px;
+	margin-bottom: 45px; 
+}
+
+#course4:hover{
+	background-color:black;
+    opacity: 0.5;
+}
+#boutton4{
+	
+  	margin-top: 55px;
+ 	display: none;
+	
+}
+.course5{
+	background-image:url(../res/cap5.png);
+	width: 5cm;
+	height: 5cm;
+	padding: 20px;
+	display:inline-block;
+	overflow:hidden;
+	margin-left:50px;
+	margin-bottom: 45px; 
+}
+
+.course5:hover{
+	background-color:black;
+    opacity: 0.5;
+}
+#boutton5{
+	
+  	margin-top: 55px;
+ 	display: none;
+	
+}
+.course6{
+	background-image:url(../res/cap6.png);
+	width: 5cm;
+	height: 5cm;
+	padding: 20px;
+	display:inline-block;
+	overflow:hidden;
+	margin-left:50px;
+	margin-bottom: 45px; 
+}
+
+.course6:hover{
+	background-color:black;
+    opacity: 0.5;
+}
+#boutton6{
+	
+  	margin-top: 55px;
+ 	display: none;
+	
+}
+.course7{
+	background-image:url(../res/cap7.png);
+	width: 5cm;
+	height: 5cm;
+	padding: 20px;
+	display:inline-block;
+	overflow:hidden;
+	margin-left:50px;
+	margin-bottom: 45px; 
+}
+
+.course7:hover{
+	background-color:black;
+    opacity: 0.5;
+}
+#boutton7{
+	
+  	margin-top: 55px;
+ 	display: none;
+	
+}
+.course8{
+	background-image:url(../res/cap8.png);
+	width: 5cm;
+	height: 5cm;
+	padding: 20px;
+	display:inline-block;
+	overflow:hidden;
+	margin-left:50px;
+	margin-bottom: 45px; 
+}
+
+.course8:hover{
+	background-color:black;
+    opacity: 0.5;
+}
+#boutton8{
+	
+  	margin-top: 55px;
+ 	display: none;
+	
+}
+.course9{
+	background-image:url(../res/cap9.png);
+	width: 5cm;
+	height: 5cm;
+	padding: 20px;
+	display:inline-block;
+	overflow:hidden;
+	margin-left:50px;
+	margin-bottom: 45px; 
+}
+
+.course9:hover{
+	background-color:black;
+    opacity: 0.5;
+}
+#boutton9{
+	
+  	margin-top: 55px;
+ 	display: none;
+	
+}
+/*------------------------------------------------------*/
+
+textarea{
+	width: 13cm;
+	height: 2cm;
+}
+
+h1{color:white;
+	font-size: 40px;
+	
+	font-family: arial;
+	font-weight: normal;
+	position: center;
+	
+}
+
+.form-group .form-control{
+	width: 200px;
+	height: 40px;
+}
+
+
+
+
+#ok{
+	width: 60px;
+	height: 30px;
+}	
+
+#gif{
+	width:100%; height:15cm; margin-left:none;
+	
+}
+
+#feedback{
+	font-size: 15px;
+	font-family: time new roman;
+
+}
+
+
+
+a{text-decoration: none;
+	font-size: 17px;
+font-family: arial;
+color: blue;
+}
+
+
+a:hover{
+	color: yellow;
+	text-decoration:underline;
+}
+
+
+
+
+.titre{background-image: url("../res/titre.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  /*-----*/
+  background-size: cover;
+  /*----*/
+  filter: blur(10px);
+  width: 100%;
+  height: 450px;	  
+}  
+
+.ombre{
+position: center;
+margin-left: 8cm;
+font-size: 80px;
+color: blue;
+font-family: times new roman;
+text-shadow: 5px 5px yellow;
+top: 40%;
+transform: translate(20%, -300%);
+
+}
+
+
+
+
+
+
+p{
+	font-size: 15px;
+	font-family: arial;
+	color: white;
+	font-weight: bold;
+}
+
+
